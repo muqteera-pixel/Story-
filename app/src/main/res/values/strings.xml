@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StoryBookApp</string>
+    <string-array name="stories">
+        <item>The Brave Rabbit: Once upon a time, a brave rabbit saved the forest...</item>
+        <item>The Lost Crown: In a faraway kingdom, a crown was lost and a young prince went on a journey...</item>
+        <item>Magic Tree: A magical tree grew in the village that could talk and grant wishes...</item>
+        <item>The Clever Fox: A clever fox outsmarted the hunters and helped the other animals...</item>
+        <item>The Secret Garden: Behind the old mansion, there was a secret garden full of wonders...</item>
+    </string-array>
+</resources>
