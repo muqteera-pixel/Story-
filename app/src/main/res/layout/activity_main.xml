@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button android:id="@+id/story1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="The Brave Rabbit"/>
+    <Button android:id="@+id/story2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="The Lost Crown"/>
+    <Button android:id="@+id/story3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Magic Tree"/>
+    <Button android:id="@+id/story4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="The Clever Fox"/>
+    <Button android:id="@+id/story5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="The Secret Garden"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5367408521620850/2861409819"/>
+</LinearLayout>
